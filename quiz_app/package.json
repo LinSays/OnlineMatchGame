@@ -1,0 +1,35 @@
+{
+  "name": "iskelot.zafer",
+  "displayName": "ISKELOT",
+  "version": "1.0.1",
+  "description": "A online quiz game with words and numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Maz's planetoftheappsteam",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-plugin-admobpro": "^2.49.0",
+    "cordova-plugin-extension": "^1.5.4",
+    "cordova-plugin-insomnia": "github:EddyVerbruggen/Insomnia-PhoneGap-Plugin",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-admobpro": {
+        "ADMOB_APP_ID": "ca-app-pub-6093857782627159~4161552116",
+        "PLAY_SERVICES_VERSION": "16.0.0"
+      },
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-insomnia": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

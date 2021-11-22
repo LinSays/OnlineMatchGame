@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="iskelot.zafer" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ISKELOT</name>
+    <description>
+        A online quiz game with words and numbers.
+    </description>
+    <author email="platnetoftheappsteam@gmail.com" href="http://cordova.io">
+        Maz's planetoftheappsteam
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <platform name="android">
+        <preference name="loadUrlTimeoutValue" value="30000" />
+        <allow-intent href="market:*" />
+        <icon src="www/images/icon.png" />
+    </platform>
+</widget>
